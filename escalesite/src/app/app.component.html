@@ -1,14 +1,19 @@
 <div id="GlobalNav">
   <div class="GlobalNav_Logo">
-    <img src="#" alt="escalesite Logo" />
+    <img class="GlobalNav_Logo_IMG" src="/assets/Images/EscaleSite_Logo.jpg" alt="escalesite Logo" />
   </div>
   <nav>
-    <ul class="GlobalNav_Links">
-      <li><a routerLink="/home-page">Home</a></li>
-      <li>About</li>
-      <li>Portfolio</li>
-      <li>Contact</li>
-    </ul>
+    <div class="GlobalNav_Links">
+      <div class="Button-Class">
+          <button>Contact</button>
+      </div>
+      <div class="Button-Class_Blue">
+          <button>Portfolio</button>
+      </div>
+    </div>
+    
   </nav>
+  
 </div>
 <router-outlet></router-outlet>
+<app-portfolio></app-portfolio>

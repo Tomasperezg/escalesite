@@ -1,20 +1,36 @@
-#GlobalNav{
-    width: 100%;
-    display: flex;
-    padding-top: 15px;
-    justify-content: center;
-    .GlobalNav_Logo_IMG {
-        width: 220px;
-    }
+h2{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 35px;
 }
-nav{
+#TwoSectionLeft{
     width: 100%;
+    height: 350px;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 30px;
-    .GlobalNav_Links{
-        text-align: center;
-        list-style: none;
+    justify-content: center;
+    .ImageSection{
+        width: 420px;
+        height: 350px;
+        background-color: gray;
+    }
+    .ParagraphSection{
+        width: 420px;
+        height: 350px;
+        .ProjectTitle{
+            margin-left: 20px;
+            font-size: 25px;
+            font-family: Tahoma;
+            font-weight: 500;
+        }
+        .ProjectDetails{
+            margin-left: 20px;
+            font-size: 18px;
+            font-family: Tahoma;
+        }
+    }
+    .ButtonSection{
+        margin-left: 20px;
+        margin-top: 25px;
         display: flex;
         .Button-Class{
             text-align: center;
@@ -44,7 +60,7 @@ nav{
             margin-bottom: 20px;
         }
         .Button-Class_Blue button{
-            width: 150px;
+            width: 200px;
             height: 40px;
             background: #5288AA;
             border-color: #2c2c2c;
@@ -59,6 +75,6 @@ nav{
             border-color: #2c2c2c;
             cursor: pointer;
         }
-       
     }
+    
 }
