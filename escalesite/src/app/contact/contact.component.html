@@ -2,9 +2,26 @@
 <div id="formContainer">
     <form #userForm = "ngForm" class="form">
         <!-- {{ model | json }} -->
-        <input class="inputBox" type="text" name="name" [(ngModel)]="model.name">
-        <input class="inputBox" placeholder="Phone Number" type="number" [(ngModel)]="model.number" name="number">
-        <input  class="inputBox" placeholder="Email" type="text" [(ngModel)]="model.email" name="email">
+        <div class="inputWrap">
+            <input class="inputBox" required type="text" placeholder="Full name" [(ngModel)]="model.name" name="name" #name="ngModel">
+            <div [hidden]="name.valid || name.pristine" class="alert">
+                *Name is required
+            </div>
+        </div>
+        <div class="inputWrap">
+                <input class="inputBox" required placeholder="Phone Number" type="number" [(ngModel)]="model.number" name="number" #number="ngModel">
+                <div [hidden]="number.valid || number.pristine" class="alert">
+                    *Phone number is required
+                </div>
+        </div>
+        <div class="inputWrap">
+                <input  class="inputBox" required placeholder="Email" type="text" [(ngModel)]="model.email" name="email" #email="ngModel">
+                <div [hidden]="email.valid || email.pristine" class="alert">
+                        *Email number is required
+                </div>
+        </div>
+       
+       
         <div class="select" >
             <select [(ngModel)]="model.subject" name="subject" id="standard-select">
                 <option *ngFor="let subject of subjects" [value]="subject">{{subject}}</option>
