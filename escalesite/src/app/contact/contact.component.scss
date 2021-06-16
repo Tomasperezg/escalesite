@@ -4,3 +4,62 @@ h2{
     font-size: 35px;
     margin-top: 100px;
 }
+#formContainer{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 550px;
+}
+.inputBox{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    height: 25px;
+    font-size: 20px;
+    border-bottom-color: #2c2c2c;
+    margin-bottom: 25px;
+}
+select{
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 25px;
+}
+.select{
+    border: solid 2px #2c2c2c;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+textarea{
+    width: 100%;
+    height: 160px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #2c2c2c;
+}
+.Button-Class{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Button-Class button{
+    width: 130px;
+    height: 40px;
+    background: #2c2c2c;
+    border-color: #2c2c2c;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    font-family: Tahoma;
+}
+.Button-Class button:hover{
+    background-color: white;
+    color: #2c2c2c;
+    border-color: #2c2c2c;
+    cursor: pointer;
+}
