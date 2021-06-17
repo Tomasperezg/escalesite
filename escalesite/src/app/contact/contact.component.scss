@@ -72,3 +72,13 @@ textarea{
     border-color: #2c2c2c;
     cursor: pointer;
 }
+#successFormContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.successMessage{
+    font-size: 25px;
+    font-family: Tahoma;
+    font-weight: 600;
+}
