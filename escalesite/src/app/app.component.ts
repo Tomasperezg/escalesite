@@ -11,4 +11,7 @@ export class AppComponent {
   scroll() {
     document.querySelector('#contact-page').scrollIntoView({ behavior: 'smooth'});
  }
+ scroll2(){
+   document.querySelector('#portfolio-page').scrollIntoView({ behavior: 'smooth' });
+ }
 }

@@ -13,7 +13,7 @@ export class ContactComponent implements OnInit {
 
   subjects = ['--Select Message Topic--', '', 'Consult (Free)']
 
-  model = new Form('Tom', 123456789, 'some@some.com',  this.subjects[0], 'This is a sample Message')
+  model = new Form('', 123456789, '',  this.subjects[0], '')
 
   submitted = false;
   

@@ -8,7 +8,7 @@
           <button (click)="scroll()">Contact</button>
       </div>
       <div class="Button-Class_Blue">
-          <button>Portfolio</button>
+          <button (click)="scroll2()">Portfolio</button>
       </div>
     </div>
     
@@ -16,5 +16,15 @@
   
 </div>
 <router-outlet></router-outlet>
-<app-portfolio></app-portfolio>
+<app-portfolio id="portfolio-page"></app-portfolio>
 <app-contact id="contact-page"></app-contact>
+<div class="footer">
+  <div class="socialTilesText">
+    <h4>Follow us on social media</h4>
+  </div>
+  <div class="socialTilesImages">
+      <img src="" alt="Instagram">
+      <img src="" alt="LinkedIn">
+      <img src="" alt="Pinterest">
+  </div>
+</div>
