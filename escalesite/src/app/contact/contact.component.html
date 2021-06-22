@@ -16,7 +16,7 @@
                 </div>
         </div>
         <div class="inputWrap">
-                <input  class="inputBox" required placeholder="Email" type="text" [(ngModel)]="model.email" name="email" #email="ngModel">
+                <input  class="inputBox" required placeholder="Email" type="email" email="true" [(ngModel)]="model.email" name="email" #email="ngModel">
                 <div [hidden]="email.valid || email.pristine" class="alert">
                         *Email number is required
                 </div>
