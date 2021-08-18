@@ -83,3 +83,14 @@ textarea{
     font-family: Tahoma;
     font-weight: 600;
 }
+
+// Mobil
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .successMessage{
+        font-size: 20px;
+        text-align: center;
+    }
+  }

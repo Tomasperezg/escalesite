@@ -85,3 +85,25 @@ nav{
         padding-right: 10px;
     }
 }
+// Mobil
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    #GlobalNav{
+        .GlobalNav_Logo_IMG{
+            padding-bottom: 20px;
+        }
+    }  
+    nav{
+        width: 0px;
+        .GlobalNav_Links{
+            display: none;
+        }
+    }
+    .footer{
+        .socialTilesText{
+            font-size: 20px;
+        }
+    }
+}

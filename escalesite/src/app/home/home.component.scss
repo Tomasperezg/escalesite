@@ -22,7 +22,7 @@ h2{
         height: 120px;
         border-radius: 50%;
         background-color: #A4DBDB;
-        opacity: 0.4;
+        opacity: 0.3;
         margin-top: 80px;
         left: 70%;
         position: absolute;
@@ -32,7 +32,7 @@ h2{
         height: 120px;
         border-radius: 50%;
         background-color: #A4DBDB;
-        opacity: 0.4;
+        opacity: 0.3;
         position: absolute;
         margin-top: 31px;
         left: 66%;
@@ -69,4 +69,30 @@ h2{
             font-size: 25px;
         }
     }
+}
+// Mobile
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+     .Banner{
+         height: 232px;
+     } 
+     h2{
+         font-size: 22px;
+         padding-top: 81px;
+     }
+     .Paragraph{
+         .Circle, 
+         .Circle_2{
+             display: none;
+         }
+         .Paragraph_Text{
+             font-size: 20px;
+             margin-left: 0px;
+             margin-right: 0px;
+             margin-top: 75px;
+         }
+     }  
+
 }
