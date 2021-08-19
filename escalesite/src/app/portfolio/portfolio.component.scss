@@ -6,8 +6,6 @@ h2{
 
 // 
 #TwoSectionLeft{
-    width: 100%;
-    height: 350px;
     display: flex;
     justify-content: center;
     margin-bottom: 35px;
@@ -83,8 +81,6 @@ h2{
 }
 // 
 #TwoSectionRight{
-    width: 100%;
-    height: 350px;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -162,17 +158,18 @@ h2{
 // Mobil
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     #TwoSectionLeft{
         flex-direction: column;
         height: auto;
         .ImageSection{
-            width: 330px;
+            width: auto;
             height: 320px;
         }
         .ParagraphSection{
-            width: 330px;
+            width: 100%;
+            height: auto;
             .ProjectTitle{
                 text-align: center;
             }
@@ -189,12 +186,12 @@ h2{
         flex-direction: column;
         height: auto;
         .ImageSection{
-            margin-top: 20px;
-            width: 330px;
+            width: auto;
             height: 320px;
         }
         .ParagraphSection{
-            width: 330px;
+            width: 100%;
+            height: auto;
             .ProjectTitle{
                 text-align: center;
             }

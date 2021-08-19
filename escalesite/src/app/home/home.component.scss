@@ -16,7 +16,7 @@ h2{
 }
 .Paragraph{
     width: 100%;
-    height: 220px;
+   
     .Circle{
         width: 120px;
         height: 120px;
@@ -73,10 +73,10 @@ h2{
 // Mobile
 @media only screen 
   and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 2) {
      .Banner{
-         height: 232px;
+         height: 200px;
      } 
      h2{
          font-size: 22px;
