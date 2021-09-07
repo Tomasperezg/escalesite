@@ -68,8 +68,8 @@ nav{
     display: flex;
     text-align: center;
     flex-direction: column;
-    border: 2px solid #2c2c2c;
-    border-bottom: none;
+    // border: 2px solid #2c2c2c;
+    // border-bottom: none;
     .socialTilesText{
         font-family: Tahoma;
         font-size: 25px;
@@ -83,6 +83,14 @@ nav{
         width: 45px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .rights{
+        background-color: #2c2c2c;
+        width: 100%;
+        
+        p{
+            color: white;
+        }
     }
 }
 // Mobil

@@ -4,15 +4,16 @@ h2{
     font-size: 35px;
 }
 
+
 // 
 #TwoSectionLeft{
     display: flex;
     justify-content: center;
     margin-bottom: 35px;
-    .ImageSection{
+    .ImageSection img{
         width: 420px;
         height: 350px;
-        background-color: gray;
+        background-color: white;
     }
     .ParagraphSection{
         width: 420px;
@@ -85,7 +86,7 @@ h2{
     justify-content: center;
     flex-direction: row-reverse;
     margin-top: 20px;
-    .ImageSection{
+    .ImageSection img{
         width: 420px;
         height: 350px;
         background-color: gray;
@@ -123,12 +124,18 @@ h2{
             color: white;
             font-size: 20px;
             font-family: Tahoma;
+            a{
+                text-decoration: none;
+                color: white;
+            }
         }
         .Button-Class button:hover{
             background-color: white;
-            color: #2c2c2c;
             border-color: #2c2c2c;
             cursor: pointer;
+            a{
+                color: black;
+            }
         }
         .Button-Class_Blue{
             text-align: center;
@@ -145,12 +152,19 @@ h2{
             color: white;
             font-size: 20px;
             font-family: Tahoma;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+
         }
         .Button-Class_Blue button:hover{
             background-color: white;
-            color: #2c2c2c;
             border-color: #2c2c2c;
             cursor: pointer;
+            a{
+                color: black;
+            }
         }
     }
     
@@ -166,6 +180,10 @@ h2{
         .ImageSection{
             width: auto;
             height: 320px;
+            text-align: center;
+            img{
+                width: 330px;
+            }
         }
         .ParagraphSection{
             width: 100%;
