@@ -89,7 +89,6 @@ h2{
     .ImageSection img{
         width: 420px;
         height: 350px;
-        background-color: gray;
     }
     .ParagraphSection{
         width: 420px;
@@ -206,6 +205,10 @@ h2{
         .ImageSection{
             width: auto;
             height: 320px;
+            text-align: center;
+            img{
+                width: 330px;
+            }
         }
         .ParagraphSection{
             width: 100%;
